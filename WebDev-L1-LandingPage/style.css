@@ -1,0 +1,149 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 50px;
+background:#222;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(to right,#4CAF50,#2E8B57);
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:55px;
+}
+
+.hero p{
+margin-top:20px;
+font-size:22px;
+}
+
+.hero button{
+margin-top:30px;
+padding:15px 35px;
+font-size:18px;
+border:none;
+background:white;
+color:#4CAF50;
+border-radius:8px;
+cursor:pointer;
+}
+
+.about{
+padding:70px;
+text-align:center;
+}
+
+.about h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.about p{
+font-size:20px;
+line-height:35px;
+}
+.services{
+padding:80px;
+text-align:center;
+background:#f8f8f8;
+}
+
+.services h2{
+font-size:40px;
+margin-bottom:40px;
+}
+
+.service-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+width:300px;
+padding:30px;
+background:white;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#4CAF50;
+}
+.contact{
+background:#4CAF50;
+color:white;
+padding:80px;
+text-align:center;
+}
+
+.contact h2{
+font-size:40px;
+margin-bottom:25px;
+}
+
+.contact p{
+font-size:22px;
+margin:15px;
+}
+
+.contact button{
+margin-top:25px;
+padding:15px 35px;
+font-size:18px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+background:white;
+color:#4CAF50;
+}
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+font-size:18px;
+}
